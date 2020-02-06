@@ -3,18 +3,48 @@
 
 <head>
     <title>City Laundromat: Services</title>
+    <link rel="stylesheet" type="text/css" href="demo.css" />
+
+    <style type="text/css">
+        body {
+            background-image: url(background2.jpg);
+            background-position: 40%;
+        }
+
+        h4#subtitle {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.5em;
+            margin-left: 23%;
+        }
+
+        ul#serv_list {
+            background: rgba(255,255,255,0.5);
+            width:50%;
+        }
+
+        ul#serv_list li {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.25em;
+            line-height: 150%;
+            text-align: center;
+            list-style-type: none;
+        }
+    </style>
 </head>
 
 <body>
     <h1>Services</h1>
     <a name="top"></a>
 
-    <a href="index.html">Home</a>
-    <a href="contact.html">Contact Us</a>
-    <a href="top">Services</a>
-
-    <h4>Wash-n-Fold</h4>
-        <ul>
+    <ul class='nav'>
+        <li><a class="no_link" href="index.html">Home</a></li>
+        <li><a class="no_link active_bar" href="top">Services</a></li>
+        <li><a class="no_link" href="contact.html">Contact Us</a></li>
+        
+    </ul>
+    
+    <h4 id="subtitle">Wash-n-Fold</h4>
+        <ul id="serv_list">
             <li>Regular: $0.99\lbs</li>
             <ul>
                 <li>Add Bleach: $1.00</li>
@@ -25,9 +55,19 @@
             <li>Fold (Clean Clothes): $0.45/lbs</li>
         </ul>
 
-        <a href="index.html">Home</a>
-        <a href="contact.html">Contact Us</a>
-        <a href="#top">Services</a>
+        <div class="table">
+            <ul class='footer'>
+                <li> <a class='foot'
+                        href="https://www.google.com/maps/place/City+Laundromat/@42.38405,-71.1131159,17z/data=!3m1!4b1!4m5!3m4!1s0x89e37739940e9741:0x6b059e135e996786!8m2!3d42.38405!4d-71.1109272"
+                        target="_blank">* Google Maps</a></li>
+                <li> <a class='foot' href="https://www.yelp.com/biz/city-laundromat-somerville" target="_blank">* Yelp</a></li>
+                <li> <a class='foot' href="https://www.groupon.com/biz/somerville-ma/city-laundromat" target="_blank">*
+                        Groupon</a></li>
+                <li> <a class='foot' href="https://www.facebook.com/pages/City-Laundromat-and-Cleaner/214585029145037"
+                        target="_blank">* Facebook</a></li>
+            </ul>
+        
+        </div>
 </body>
 
 

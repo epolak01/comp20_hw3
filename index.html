@@ -1,39 +1,93 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 
     <head>
-        <link rel="stylesheet" href=“/style.css">
-        <style> h1 {color: #FF0000; } </style>
+        <meta charset="utf-8">
+        <title>City Laundromat</title>
+        <link rel="stylesheet" type = "text/css" href="demo.css" />
+        <meta name=‘viewport’ content=“width=device-width, initial-scale=1”>
+
+    <style type="text/css">
+        body {
+            background-image: url(background2.jpg);
+            background-position: 10%;
+        }
+
+        img.home_img {
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            z-index: -1;
+            opacity: 0.35;
+            height: 100vw;
+            width: 100vw;
+            
+        }
+        h1 {
+            font-size: 4em;
+        }
+
+        h4 {
+            text-align: center;
+            font-size: 2em;
+            /*float:left;
+            width: 50vw;*/
+            font-family: Verdana, sans-serif;
+        }
+
+        a.foot {
+            color : #000000;
+        }
+
+        div.main_text {
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            line-height: 175%;
+        }
+    </style>
+
+
     </head>
     
-    <title>City Laundromat</title>
-
     <body>
         <h1>City Laundromat</h1>
-        <h4>For all your Laundry Needs!</h4>
+        
+        <ul class='nav'>
+            <li> <a class="no_link active_bar" href="#top">Home</a> </li>
+            <li> <a class="no_link" href="services.html">Services</a> </li>
+            <li> <a class="no_link" href="contact.html">Contact Us</a> </li>
+        </ul>
         <a name="top"></a>
 
-        <a href="#top">Home</a>
-        <a href="services.html">Services</a>
-        <a href="contact.html">Contact Us</a>
+        <h4>The Best service for all your Laundry Needs!</h4>
+
+        <div class="main_text"><strong><u>Why Choose Us?</u></strong></div>
+        <div class="main_text">City Laundromat provides excellent self-serve laundry services
+                as well as profesional drycleaning!</div>
+            
+        <div class="main_text">We have over 20 washers and
+                dryers, so we guarentee instant service!</div>
+            
+        <div class="main_text"> a wash-and-fold service
+                for only $0.99\lbs nobody beats our prices!</div>
+            
+        <div class="main_text">Enjoy our free wifi while you wait!</div> </div>
+
+        <div class="table">
+            <ul class='footer'>
+                <li> <a class='foot' href="https://www.google.com/maps/place/City+Laundromat/@42.38405,-71.1131159,17z/data=!3m1!4b1!4m5!3m4!1s0x89e37739940e9741:0x6b059e135e996786!8m2!3d42.38405!4d-71.1109272" target="_blank">* Google Maps</a></li>
+                <li> <a class='foot' href="https://www.yelp.com/biz/city-laundromat-somerville" target="_blank">* Yelp</a></li>
+                <li> <a class='foot' href="https://www.groupon.com/biz/somerville-ma/city-laundromat" target="_blank">* Groupon</a></li>
+                <li> <a class='foot' href="https://www.facebook.com/pages/City-Laundromat-and-Cleaner/214585029145037" target="_blank">* Facebook</a></li>      
+            </ul>
+
+        </div>
+
+            
         
-        <p>
-            <div>City Laundromat provides excellent self-serve laundry services
-            as well as profesional drycleaning!</div> 
-            
-            <div>We have over 20 washers and
-            dryers, so we guarentee instant service!</div> 
-            
-            <div> a wash-and-fold service
-            for only $0.99\lbs nobody beats our prices!</div>
-
-            <div>Enjoy our free wifi while you wait!</div>
-        </p>
-
-        <a href="#top">Home</a>
-        <a href="services.html">Services</a>
-        <a href="contact.html">Contact Us</a>
     </body>
+
+
 
 
 

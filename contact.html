@@ -3,42 +3,139 @@
 
 <head>
     <title>City Laundromat: Contact</title>
+    <link rel="stylesheet" type="text/css" href="demo.css" />
+
+    <style type="text/css">
+        body {
+            background-image: url(background2.jpg);
+            background-position: 15%;
+        }
+        table#hours th, td {
+            padding: 15px;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table#hours {
+            width: 25vw;
+            border-collapse: collapse;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        table#hours tr:nth-child(odd) {
+            background:rgba(255,255,255,0.5)
+        }
+
+        table#hours tr:nth-child(even) {
+            background:rgba(214,214,214,0.5);
+        }
+
+        table#hours th {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table#hours caption {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.5em;
+        }
+
+        h4.locationh {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.5em;
+        }
+    
+        div.location {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.3em
+        }
+    
+    </style>
+
 </head>
 
 <body>
     <h1>Contact Us</h1>
     <a name="top"></a>
     
-    <a href="index.html">Home</a>
-    <a href="#top">Contact Us</a>
-    <a href="services.html">Services</a>
+    <ul class='nav'>
+        <li><a class="no_link" href="index.html">Home</a></li>
+        <li><a class="no_link" href="services.html">Services</a></li>
+        <li><a class="no_link active_bar "href="#top">Contact Us</a></li>
+        
+    </ul>
     
-
-    <h4>Location:</h4>
+    <h4 class="locationh">Location:</h4>
     <p>
-        <div>Visit us in Summerville Plaza at 630 Somerville Ave, Somerville, MA 02143 </div>
+        <div class="location"><strong>Summerville Plaza at 630 Somerville Ave, Somerville, MA 02143</strong></div>
     </p>
     
-    <h4>Hours:</h4>
+    <h4 class="locationh">Phone:</h4>
     <p>
-        <ul>
-            <li>Monday: 6:30AM to 11:30PM</li>
-            <li>Tuesday: 6:30AM to 11:30PM</li>
-            <li>Wednesday: 6:30AM to 11:30PM</li>
-            <li>Thursday: 6:30AM to 11:30PM</li>
-            <li>Friday: 6:30AM to 11:30PM</li>
-            <li>Saturday: 6:30AM to 11:30PM</li>
-            <li>Sunday: 6:30AM to 11:30PM</li>
+        <div class="location"><strong>(617) 764-3946</strong></div>
+    </p>
+
+    <table id="hours"> 
+        <caption><strong>Hours</strong></caption>
+        <tr>
+            <th>Day</th>
+            <th>Open</th>
+            <th>Close</th>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td>6:30AM</td>
+            <td>11:30PM</td>
+        </tr>
+        <tr>
+            <td>Tuesday</td>
+            <td>6:30AM</td>
+            <td>11:30PM</td>
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td>6:30AM</td>
+            <td>11:30PM</td>
+        </tr>
+        <tr>
+            <td>Thursday</td>
+            <td>6:30AM</td>
+            <td>11:30PM</td>
+        </tr>
+        <tr>
+            <td>Friday</td>
+            <td>6:30AM</td>
+            <td>11:30PM</td>
+        </tr>
+        <tr>
+            <td>Satday</td>
+            <td>6:30AM</td>
+            <td>11:30PM</td>
+        </tr>
+        <tr>
+            <td>Sunday</td>
+            <td>6:30AM</td>
+            <td>11:30PM</td>
+        </tr>
+    </table>
+    </p>
+
+
+
+    <div class="table">
+        <ul class='footer'>
+            <li> <a class='foot'
+                    href="https://www.google.com/maps/place/City+Laundromat/@42.38405,-71.1131159,17z/data=!3m1!4b1!4m5!3m4!1s0x89e37739940e9741:0x6b059e135e996786!8m2!3d42.38405!4d-71.1109272"
+                    target="_blank">* Google Maps</a></li>
+            <li> <a class='foot' href="https://www.yelp.com/biz/city-laundromat-somerville" target="_blank">* Yelp</a></li>
+            <li> <a class='foot' href="https://www.groupon.com/biz/somerville-ma/city-laundromat" target="_blank">*
+                    Groupon</a></li>
+            <li> <a class='foot' href="https://www.facebook.com/pages/City-Laundromat-and-Cleaner/214585029145037"
+                    target="_blank">* Facebook</a></li>
         </ul>
-    </p>
-    <h4>Phone:</h4>
-    <p>
-        <div>Call us at (617) 764-3946</div>
-    </p>
-
-    <a href="index.html">Home</a>
-    <a href="#top">Contact Us</a>
-    <a href="services.html">Services</a>
+    
+    </div>
+    
 </body>
 
 

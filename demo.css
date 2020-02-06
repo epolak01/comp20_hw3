@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+h1 {
+    text-align: center;
+    width: 100vw;
+    color: #000000;
+    font-family: Verdana, sans-serif;
+}
+
+/*A {font-family: Gill Sans, sans-serif; font-size:20px; color : #ffffff}*/
+
+body {
+    background-color: #ffffff/*#4aa9e0*/
+}
+
+a.no_link {
+    text-decoration: none;
+}
+
+a {
+    color: #ffffff;
+}
+
+a.foot {
+            color : #000000;
+}
+
+a.active_bar {
+    text-decoration: none;
+    color: #9b9b9b;
+}
+
+ul.nav {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    background-color: #1c1c1c;
+    position: fixed;
+    top: 0;
+}
+/*#2777a5*/
+
+ul.nav li:hover {
+    background-color: #333333;
+}
+
+ul.nav li {
+    font-family: Gill Sans, sans-serif; font-size:20px; color : #ffffff;
+    list-style-type: none;
+    display: inline;
+    font-size: 20px;
+    border: none;
+    padding: 20px 20px;
+}
+
+.table {
+    display: table;
+    margin: 0 auto;
+}
+
+ul.footer {
+    text-align: center;
+    /*position: fixed;*/
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    /*width: 20vw;*/
+}
+
+ul.footer li {
+    display: inline;
+    font-size: 15px;
+    border: none;
+    padding: 20px 20px;
+}
+    
+
+
+/*
+
+Laundry machine image: Photo by Jeremy Sallee on Unsplash
+
+Shirts Image: Photo by Waldemar Brandt on Unsplash
+
+<img class="home_img" src="jeremy-sallee-lgrM1t4rxWQ-unsplash.jpg" alt="Laundry machine image: Photo by Jeremy Sallee on Unsplash">
+
+
+*/
