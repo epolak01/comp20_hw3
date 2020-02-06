@@ -61,11 +61,11 @@ ul.nav li {
 
 ul.footer {
     text-align: center;
-    /*position: fixed;*/
+    position: fixed;
     bottom: 0;
-    display: flex;
+    left: 0;
+    width: 100vw;
     align-items: center;
-    /*width: 20vw;*/
 }
 
 ul.footer li {
