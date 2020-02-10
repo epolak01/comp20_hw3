@@ -22,7 +22,7 @@ a {
 }
 
 a.foot {
-            color : #000000;
+    color : #000000;
 }
 
 a.active_bar {
@@ -75,7 +75,40 @@ ul.footer li {
     padding: 20px 20px;
 }
     
+@media only screen and (max-width: 650px) {
+    ul.nav {
+        height: 25px;
+    }
+    
+    ul.nav li {
+        font-size: 25px;
+    }
 
+    ul.footer {
+        position: relative;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+        ul.nav {
+        height: 20px;
+    }
+    
+    ul.nav li {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    ul.footer li {
+        display: list-item;
+        list-style-type: none;
+    }
+    
+    ul.nav li {
+        font-size: 15px;
+    }
+}
 
 /*
 
